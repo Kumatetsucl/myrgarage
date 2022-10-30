@@ -1,0 +1,230 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <title>M&R GARAGE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/mdb.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/fade-in-text.css' %}">
+  <link rel="stylesheet" href="{% static 'css/mdb.min.css' %}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body background="{% static 'img/mecanico.jpg' %}">
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(20,40,60); color: rgb(220,220,230)">
+      <div class="container-fluid">
+        <a style="color:#ffffff" class="navbar-brand" href="">M&R garage</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a style="color:#ffffff" class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="alineacion" style="color:#ffffff94">Alineación y Balanceo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="frenos" style="color:#ffffff94">Frenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="diagnostico" style="color:#ffffff94">Diagnóstico</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto" style="color:#ffffff94">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- FIN NAVBAR -->
+
+
+  <!--BODY de la pagina-->
+  <div class="container">
+    <div class="row py-4 text-center text-white">
+      <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+        <div class="mb-4">
+          <img src="{% static 'img/LOGO.png' %}" style="max-height:230px; max-width:100%; width:auto">
+        </div>
+
+        <h1 class="h3 my-3" style="text-shadow: 2px 2px 20px #ffffff">M&R GARAGE</h1>
+
+      </div>
+    </div>
+  </div>
+  <!--fin BODY de la pagina-->
+  <!--Servicios-->
+  <div class="container-fluid" style="background-color: rgb(20,40,60); color: rgb(220,220,230)">
+    <div class="row py-5 align-items-center">
+      <div data-aos="fade" data-aos-duration="1000">
+        <h2 class="mt-2 mb-3"><b>Nuestros servicios incluyen:</b></h2>
+        <p class="step__content" style="text-align: left;">Alineación y Balanceo - Frenos - Suspension - Suspension -
+          Direccion</p>
+      </div>
+    </div>
+    <div class="fade-in-text">
+      <div class="row mt-4 mt-lg-5">
+        <div class="col-md-3 mb-4">
+          <div class="row align-items-center">
+            <div class="col col-md-12">
+              <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-wallet"
+                viewBox="0 0 16 16">
+                <path
+                  d="M0 3a2 2 0 0 1 2-2h13.5a.5.5 0 0 1 0 1H15v2a1 1 0 0 1 1 1v8.5a1.5 1.5 0 0 1-1.5 1.5h-12A2.5 2.5 0 0 1 0 12.5V3zm1 1.732V12.5A1.5 1.5 0 0 0 2.5 14h12a.5.5 0 0 0 .5-.5V5H2a1.99 1.99 0 0 1-1-.268zM1 3a1 1 0 0 0 1 1h12V2H2a1 1 0 0 0-1 1z" />
+              </svg>
+              <h5>Precios para todos</h5>
+              <p class="m-0 opacity-75">Tu decides que repuestos ocupamos</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="row align-items-center">
+            <div class="col col-md-12">
+              <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor"
+                class="bi bi-calendar-check" viewBox="0 0 16 16">
+                <path
+                  d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+                <path
+                  d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+              </svg>
+              <h5>Garantía de 6 meses</h5>
+              <p class="m-0 opacity-75">Para todos los repuestos y servicios</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="row align-items-center">
+            <div class="col col-md-12">
+              <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor"
+                class="bi bi-journal-check" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M10.854 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 8.793l2.646-2.647a.5.5 0 0 1 .708 0z" />
+                <path
+                  d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z" />
+                <path
+                  d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" />
+              </svg>
+              <h5>Revisión garantizada</h5>
+              <p class="m-0 opacity-75">Te aseguramos pasar la revisión técnica</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="row align-items-center">
+            <div class="col col-md-12">
+              <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-clock"
+                viewBox="0 0 16 16">
+                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+              </svg>
+              <h5>Horarios de Atención</h5>
+              <p class="m-0 opacity-75">Lunes a Viernes, 9:00 - 18:00
+                Sábados 9:00 - 14:00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  </div>
+
+
+
+
+
+
+  <!--FOOTER-->
+  <footer id="page_footer" class="py-4" style="background-color: rgb(20,40,60); color: rgb(220,220,230); width:auto">
+    <div class="container">
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d831.9712291966235!2d-70.64411551188704!3d-33.478346880184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa672df2abc08d988!2zMzPCsDI4JzQyLjEiUyA3MMKwMzgnMzYuOCJX!5e0!3m2!1ses!2scl!4v1666917661919!5m2!1ses!2scl"
+          width="300" height="225" style="border:0; align-self: center;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="col-mb-8 col-lg-5 mb-3">
+          <p class="mb-1">M&R GARAGE</p>
+          <p class="mb-1 small">CALIDAD - RAPIDEZ - CONFIANZA - GARANTIA</p>
+        </div>
+        <div class="col-12 mb-4 text-start border-bottom border-secondary">
+          <ul class="list-unstyled list small">
+            <li class="mb-3 me-4 d-block d-lg"><a class="text-reset">CONTACTO</a></li>
+            <li class="mb-3 me-4 d-block d-lg"><a class="text-reset" href="mailto: contacto.myrgarage@gmail.com"><i
+                  class="bi-envelope"></i>
+                <img src="{% static 'img/arribaIcon.png' %}" style="max-height:20px; max-width:30%; width:auto"
+                  style="color: rgb(255, 255, 255)">
+                CORREO: contacto.myrgarage@gmail.com</a></li>
+            <li class="mb-3 me-4 d-block d-lg"><a class="text-reset" href="tel:+56942721584"><i class="bi-phone"></i>
+                <img src="{% static 'img/phoneIcon.png' %}" style="max-height:20px; max-width:30%; width:auto"
+                  style="color: rgb(255, 255, 255)">TELEFONO: +56942721584</a></li>
+            <li class="mb-3 me-4 d-block d-lg"><a class="text-reset" href="https://wa.me/56942721584"><i
+                  class="fa fa-whatsapp whatsapp-icon"></i>
+                Hablemos al wsp +56942721584</a></li>
+          </ul>
+        </div>
+
+
+
+        <div class="col-lg-6 order-2 order-lg-1 mt-1 mt-lg-0 text-center text-lg-start small">Todos los derechos
+          reservados</div>
+
+        <div class="col-lg-6 order-1 order-lg-2 mb-2 mb-lg-0 text-center text-lg-end" style="align-items: left;">
+          <a href="https://www.instagram.com/myr_garage/" class="text-reset me-3" target="_blank"><img
+              src="{% static 'img/Instagram.svg.png' %}" style="max-height:20px; max-width:30%; width:auto"
+              style="color: rgb(255, 255, 255)"><i class="facebook"> INSTAGRAM</i></a>
+          <a href="#" class="text-reset me-3" target="_blank"><i class="gg-facebook"><img
+                src="{% static 'img/Facebook_Logo_(2019).png' %}" style="max-height:20px; max-width:30%; width:auto"
+                style="color: rgb(255, 255, 255)"></i><i class="bi bi-facebook"></i> FACEBOOK</a>
+          <a href="#" class="text-reset me-3" target="_blank"><i class="bi-tiktok"></i><img
+              src="{% static 'img/tiktok-icon.png' %}" style="max-height:20px; max-width:30%; width:auto"
+              style="color: rgb(255, 255, 255)"> TIKTOK</a>
+          <!-- este link es para iniciar session como admin-->
+          <a href="loggin" class="text-reset">
+            <img
+              src="{% static 'img/png-transparent-computer-icons-management-admin-silhouette-black-and-white-neck.png' %}"
+              style="max-height:20px; max-width:30%; width:auto" style="color: rgb(255, 255, 255)">
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="{% static 'JS/bootstrap.bundle.min.js' %}"></script>
+</body>
+
+</html>

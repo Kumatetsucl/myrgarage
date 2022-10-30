@@ -1,0 +1,85 @@
+ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 0;
+    
+}
+
+.enero{
+    grid-column-start: 6;
+    text-align: right;
+}
+
+.febrero{
+    grid-column-start: 2;
+    text-align: right;
+}
+
+.marzo{
+    grid-column-start: 2;
+    text-align: right;
+}
+
+.abril{
+    grid-column-start: 5;
+    text-align: right;
+}
+
+.mayo{
+    grid-column-start: 7;
+    text-align: right;
+}
+
+.junio{
+    grid-column-start: 3;
+    text-align: right;
+}
+
+.julio{
+    grid-column-start: 5;
+    text-align: right;
+}
+
+.agosto{
+    grid-column-start: 1;
+    text-align: right;
+}
+
+.septiembre{
+    grid-column-start: 4;
+    text-align: right;
+}
+
+.octubre{
+    grid-column-start: 6;
+    text-align: right;
+}
+
+.noviembre{
+    grid-column-start: 2;
+    text-align: right;
+}
+
+.diciembre{
+    grid-column-start: 4;
+    text-align: right;
+}
+
+
+
+.day-name{
+    background: rgb(243, 255, 209);
+    font-weight: bold;
+    text-align: center;
+}
+
+.rest-days{
+    text-align: right;
+}
+
+.calendariosize{
+    text-align: center;
+    
+
+}
