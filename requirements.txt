@@ -12,7 +12,7 @@ pycodestyle==2.9.1
 pypiwin32==223
 pyttsx3==2.90
 pytz==2022.4
-pywin32==304
+pywin32==222
 SpeechRecognition==3.8.1
 sqlparse==0.4.2
 subprocess.run==0.0.8
