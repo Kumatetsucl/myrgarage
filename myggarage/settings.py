@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-f)ep&4-9pfx0blbdw=5^)f=gf1#ho*^vuf81fg3e1%x#56fi+-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["https://myrgarage.herokuapp.com"]
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','https://tm-sys-dashbobord.herokuapp.com/', config('SERVER', default='127.0.0.1')]
 
 
 # Application definition
